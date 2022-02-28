@@ -1,0 +1,19 @@
+.Item {
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+  }
+  .Item img {
+    width: 10rem;
+    height: 10rem;
+    border: 2px solid;
+  }
+  
+  .Item img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+  
