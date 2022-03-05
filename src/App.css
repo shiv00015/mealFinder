@@ -127,9 +127,15 @@ p {
     height: 15rem;
   }
   .Details {
-    width: 20rem;
+    width:20rem;
     min-height: 80rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    
+  }
+  .Ingradients .listsIn div{
+    margin: 0.15rem;
+    padding: 0.35rem;
   }
 }
