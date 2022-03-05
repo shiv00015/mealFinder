@@ -23,7 +23,7 @@ function Details({ Heading, Image, Area, MealRes, setShowDetails, Ingrad }) {
         </button>
       </div>
       <h1>{Heading}</h1>
-      <img src={Image} alt="mealImage" width="150px" height="150px" />
+      <img src={Image} alt="mealImage" width="300rem" height="300rem" />
       <div className="strAreaDetails">
         <h2>{Area}</h2>
         <p>{Ingrad.strCategory}</p>
