@@ -73,13 +73,14 @@ function App() {
           )}
         </div>
       ) : (
-        <div className="Details">
+        <div className="detailContainer">
           <Details
             Heading={mealDetails.strMeal}
             Image={mealDetails.strMealThumb}
             Area={mealDetails.strArea}
             MealRes={mealDetails.strInstructions}
             setShowDetails={setShowDetails}
+            Ingrad={mealDetails}
           />
         </div>
       )}
